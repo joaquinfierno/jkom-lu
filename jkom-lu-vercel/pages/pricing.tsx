@@ -3,8 +3,8 @@ import { useRouter } from "next/router"
 
 export default function Pricing() {
   const router = useRouter()
-  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || ""
-  const planId = process.env.NEXT_PUBLIC_PAYPAL_PLAN_ID || ""
+  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "ARLK4FUzcP_BZ9cNlvvqMuSCC2T3VSJ9Cp-J4CmYCvyg_IBng3GPQ6stTJFi_HxFLz-HDYeECJN0mVnH"
+  const planId = process.env.NEXT_PUBLIC_PAYPAL_PLAN_ID || "ARLK4FUzcP_BZ9cNlvvqMuSCC2T3VSJ9Cp-J4CmYCvyg_IBng3GPQ6stTJFi_HxFLz-HDYeECJN0mVnH"
 
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-6 bg-dark text-white">
